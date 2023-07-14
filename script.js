@@ -4,7 +4,7 @@ function calcPrice() {
     // Цена + 20 %
     document.getElementById('pricePlus20').innerHTML = `Цена + 20 % = ${defPrice * 1.2} Р`
     // Начислится баллов
-    document.getElementById('bonusCount').innerHTML = `Начислится баллов = ${defPrice * 0.003} Б`
+    document.getElementById('bonusCount').innerHTML = `Начислится баллов = ${Math.floor(defPrice * 0.003)} Б`
     // Наша наценка
     document.getElementById('priceMargin').innerHTML = `Наша наценка = ${getMargin()} Р`
     // Цена + наша наценка

@@ -5,6 +5,7 @@
 }
 
 body {
+    
     font-family: Tahoma, Arial, Helvetica, sans-serif;
     font-size: 1.2rem;
 }
@@ -15,6 +16,8 @@ header {
     align-items: center;
     justify-content: center;
     padding: 20px 0;
+    background-color: black;
+    color: white;
 }
 
 .logo {
@@ -27,7 +30,7 @@ section {
     margin-left: auto;
     margin-right: auto;
     margin-top: 30px;
-    /* background-color: rgb(219, 219, 219); */
+    max-width: 400px;
 }
 
 h3 {
@@ -39,7 +42,9 @@ p {
 }
 
 .block-input {
-    /* margin-top: 30px; */
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
     display: flex;
     position: fixed;
     bottom: 120px;

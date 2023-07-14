@@ -23,7 +23,7 @@ header {
 
 /* Body */
 section {
-    width: 80%;
+    width: 85%;
     margin-left: auto;
     margin-right: auto;
     margin-top: 30px;
@@ -39,7 +39,7 @@ p {
 }
 
 .block-input {
-    margin-top: 30px;
+    margin-top: 25px;
     display: flex;
 }
 

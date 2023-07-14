@@ -39,8 +39,12 @@ p {
 }
 
 .block-input {
-    margin-top: 30px;
+    /* margin-top: 30px; */
     display: flex;
+    position: fixed;
+    bottom: 120px;
+    left: 15px;
+    right: 15px;
 }
 
 #input-price {

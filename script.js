@@ -2,7 +2,7 @@ function calcPrice() {
     let defPrice = Number(document.getElementById("input-price").value);
     // Рассчитываем и выводим цены
     // Цена + 20 %
-    document.getElementById('pricePlus20').innerHTML = `Цена + 20 % = ${defPrice * 1.2} Р`
+    document.getElementById('pricePlus20').innerHTML = `Цена + 7 % = ${defPrice * 1.07} Р`
     // Начислится баллов
     document.getElementById('bonusCount').innerHTML = `Начислится баллов = ${Math.floor(defPrice * 0.003)} Б`
     // Наша наценка
@@ -10,7 +10,7 @@ function calcPrice() {
     // Цена + наша наценка
     document.getElementById('resultPrice').innerHTML = `Цена + наша наценка = ${defPrice + getMargin()} Р`
     // Цена + наценка + 20 %
-    document.getElementById('resultPricePlus20').innerHTML = `Цена + наценка + 20 % = ${(defPrice + getMargin()) * 1.2} Р`
+    document.getElementById('resultPricePlus20').innerHTML = `Цена + наценка + 7 % = ${(defPrice + getMargin()) * 1.07} Р`
 }
 
 
